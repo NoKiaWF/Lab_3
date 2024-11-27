@@ -22,4 +22,4 @@ class TestMortgageCalculator(unittest.TestCase):
     def test_mouthly_payment_low_principal(self):
         calculator = MortgageCalculator(100000, 5, 35)
         payment = calculator.mountly_payment()
-        self.assertAlmostEqual(payment, 268.41, places=2)
+        self.assertAlmostEqual(payment, 504.68, places=2)
