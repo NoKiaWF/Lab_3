@@ -6,5 +6,6 @@ class MortgageCalculator:
 
     def mountly_payment(self):
         if self.mouthly_rate == 0:
+            print()
             return self.principal / self.mounts
         return (self.principal * self.mouthly_rate) / (1 - (1 + self.mouthly_rate) ** -self.mounts)
