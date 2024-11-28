@@ -24,7 +24,7 @@ jobs:
   
       - name: deployment
         run: |
-            sudo mkdir -p /var/www/projedct
+            sudo mkdir -p /var/www/project
             cd /var/www/project
             sudo git clone https://github.com/NoKiaWF/Lab_3.git
             echo "Successfully deployed"
